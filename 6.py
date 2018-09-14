@@ -35,7 +35,6 @@ def reConstructBinaryTree(preorder, inorder):
 	root.rightChild = reConstructBinaryTree(preorder[index + 1:], inorder[index + 1:])
 	return root
 
-
 # test
 preorder = [1, 2, 4, 7, 3, 5, 6, 8]
 inorder = [4, 7, 2, 1, 5, 3, 8, 6]
